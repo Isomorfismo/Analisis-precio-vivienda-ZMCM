@@ -32,6 +32,9 @@ Los cuadernos y materiales siguen la práctica habitual de la ciencia de datos:
 - Python: pandas, numpy, matplotlib, seaborn, scikit-learn, statsmodels (según cada notebook).
 - R: análisis estadístico para modelos lineales generalizados (GLM).
 
-## Licencia y contacto
-- Indicar la licencia elegida (por ejemplo, MIT, CC-BY) en el archivo LICENSE.
-- Contacto: usuario GitHub Isomorfismo (ver perfil del repo para más datos).
+## Outputs:
+<img width="618" height="272" alt="image" src="https://github.com/user-attachments/assets/3cf917d3-106d-4b92-a510-60c2bf5940d6" />
+<img width="618" height="281" alt="image" src="https://github.com/user-attachments/assets/a6866e38-6284-4fcb-afb4-3f6ff72e90c6" />
+<img width="634" height="297" alt="image" src="https://github.com/user-attachments/assets/4420ee1b-d022-4f3e-8103-ccb8a1ecffb0" />
+<img width="632" height="296" alt="image" src="https://github.com/user-attachments/assets/41d99486-876d-4f8a-af33-ec11a9051428" />
+
