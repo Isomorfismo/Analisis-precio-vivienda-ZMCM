@@ -1,0 +1,256 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* outline: 2px solid orange; */
+}
+
+main {
+    font-family: Arial, sans-serif;
+    padding: 5vh;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+nav div{
+    width: 50%;
+}
+nav #colonia-municipio-dropdown{
+    font-size: 16px;
+    width: 50%;
+    border-radius: 10px;
+    border: 2px solid #232323;
+    color: #232323;
+    cursor: pointer;
+}
+nav .Select{
+    width: 100%;
+    border: none;
+}
+nav .Select-control{
+    border: none;
+    border-radius: 10px;
+    box-shadow: none;
+}
+nav .Select-placeholder{
+    color: #888;
+    width: 100%;
+    padding-left: 10px;
+}
+nav .Select .Select-multi-value-wrapper, nav .Select-menu, nav .Select-value{
+    width: 100%;
+}
+nav .Select-option{
+    padding: 10px;
+}
+nav #nav-links{
+    display: flex;
+    justify-content: space-between;
+}
+nav a, .dash-link, .dash-table a, .dash-link {
+    color: #232323;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    display: inline-block;
+}
+nav a:hover, .dash-link:hover, a:focus, .dash-link:focus, a:active, a.dash-link:active {
+    background: #232323;
+    color: #FFF;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+/* Contenedor principal de KPIs */
+#kpi-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background: #f8f8f8;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+/* Cada KPI */
+#kpi-section > div {
+    flex: 1 1 180px;
+    background: #fff;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    border: 1px solid #e0e0e0;
+}
+#kpi-section > div:nth-child(1) {
+    width: 100%;
+}
+/* Títulos de KPI */
+#kpi-section > div > p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 6px;
+}
+
+.card-title {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #2a2a2a;
+    margin-top: 8px;
+}
+
+/* Sección de gráficos */
+#graphs-section-main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 30px;
+}
+
+/* Cada gráfico */
+#graphs-section-main > div {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    border: 1px solid #e0e0e0;
+}
+
+#graphs-section-main > div:nth-child(1) {
+    width: 100%;
+    height: 50rem;
+}
+/* Barra de navegación */
+#nav-links {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+#search-bar {
+    margin-bottom: 10px;
+}
+
+.dropdown-personalizado {
+    margin-bottom: 10px;
+}
+
+/* Estilos para la seccion de servicios */
+#servicios-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 4rem 0;
+    background: #f8f8f8;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+#servicios-section > div {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    border: 1px solid #e0e0e0;
+}
+
+/* Estilos para la capa de colonias */
+#colonia-section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#colonia-info-div{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+#colonia-info-div h1{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+#colonia-stats{
+    margin-top: 2rem;
+}
+ #modelos-section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 3rem 0;
+    padding: 2rem;
+    background: #f8f8f8;
+    gap: 2rem;
+}
+#modelos-section div:nth-child(1) {
+    width: 100%;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    border: 1px solid #e0e0e0;
+    margin: 0 auto;
+}
+#modelos-section div:nth-child(1) div {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+#modelos-section div:nth-child(1) label {
+    width: 100%;
+    font-weight: bold;
+    margin-bottom: 4px;
+    display: block;
+}
+#modelos-section div:nth-child(1) input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 12px;
+    font-size: 1em;
+}
+#modelos-section div:nth-child(1) button, #modelos-section div:nth-child(1) .dash-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    cursor: pointer;
+    transition: background 0.2s;
+}
+#modelos-section div:nth-child(1) button:hover, #modelos-section div:nth-child(1) .dash-button:hover {
+    background-color: #0056b3;
+}
+#modelos-section div:nth-child(2) {
+    font-size: 24px;
+    text-align: center;
+    height: fit-content;
+    font-weight: bold;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    margin: 2rem 0;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    #kpi-section, #graphs-section-main {
+        flex-direction: column;
+        gap: 12px;
+    }
+}
