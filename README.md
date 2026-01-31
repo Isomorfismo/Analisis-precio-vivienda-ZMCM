@@ -10,7 +10,7 @@ automático realizados en los cuadernos originales, proporcionando una guía cla
 
 ## Contenido principal
 - Notebooks Jupyter (.ipynb): flujo de trabajo completo (EDA → limpieza → ingeniería de
-  características → modelado → evaluación → visualización).
+  características → modelado → evaluación → visualización) tanto en lenguaje Python y R.
 - Scripts auxiliares (si aplica): funciones reutilizables para limpieza, carga y visualización.
 - Resultados: gráficos, tablas de métricas y modelos guardados.
 
@@ -27,10 +27,37 @@ Los cuadernos y materiales siguen la práctica habitual de la ciencia de datos:
 8. Interpretación y visualización de resultados (gráficos explicativos y resúmenes).
 9. Reproducibilidad (documentación de dependencias y entornos).
 
-## Tecnologías y librerías destacadas
-- Jupyter Notebook como formato principal.
-- Python: pandas, numpy, matplotlib, seaborn, scikit-learn, statsmodels (según cada notebook).
-- R: análisis estadístico para modelos lineales generalizados (GLM).
+## Librerías destacadas
+Python:
+- Manipulación y análisis de datos
+    - pandas
+    - numpy
+-Visualización
+    - matplotlib
+    - seaborn
+- Machine Learning
+    - scikit-learn
+    - xgboost
+    - lightgbm
+    - catboost
+- Estadística y utilidades
+    - scipy
+    - joblib
+
+R:
+- Manipulación y visualización de datos
+    - tidyverse
+    - knitr
+- Estadística y modelado
+    - MASS
+    - fitdistrplus
+- Análisis de correlación
+    - ggcorrplot
+- Regularización y modelos lineales
+    - glmnet
+- Machine Learning
+    - caret
+
 
 ## Outputs:
 <img width="618" height="272" alt="image" src="https://github.com/user-attachments/assets/3cf917d3-106d-4b92-a510-60c2bf5940d6" />
