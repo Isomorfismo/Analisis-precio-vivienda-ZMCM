@@ -2,24 +2,19 @@
 
 <p align="center">
 
-<img src="docs/images/banner-cdmx.png" alt="Predicción del precio de vivienda en CDMX" width="100%">
+![License](https://img.shields.io/badge/License-GPL--3.0-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python\&logoColor=white)
+![XGBoost](https://img.shields.io/badge/Model-XGBoost-orange)
+![Dashboard](https://img.shields.io/badge/Dashboard-Dash-0A66C2)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
 </p>
 
 <p align="center">
 
-
-
-
-
-
-
-
-</p>
-
-<p align="center">
-
-<a href="https://huggingface.co/spaces/Isomorfismo/dashboard-cdmx"> <img src="https://img.shields.io/badge/🚀%20Ver%20Dashboard-Hugging%20Face-yellow?style=for-the-badge"> </a>
+<a href="https://huggingface.co/spaces/Isomorfismo/dashboard-cdmx">
+  <img src="https://img.shields.io/badge/🚀%20Ver%20Dashboard-Hugging%20Face-yellow?style=for-the-badge">
+</a>
 
 </p>
 
