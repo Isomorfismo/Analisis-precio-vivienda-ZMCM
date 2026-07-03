@@ -1,6 +1,6 @@
 # Análisis de precio de la vivienda de la Ciudad de México: Predicción de Precios y Visualización en Panel Informativo
 
-Ingresa a: [huggingface.co/spaces/Isomorfismo/dashboard-cdmx](https://huggingface.co/spaces/Isomorfismo/dashboard-cdmx)
+Dashboard interactivo: [huggingface.co/spaces/Isomorfismo/dashboard-cdmx](https://huggingface.co/spaces/Isomorfismo/dashboard-cdmx)
 
 ## Objetivo general
 Consolidar análisis exploratorio, transformación de datos, modelado estadístico y aprendizaje
