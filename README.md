@@ -18,6 +18,11 @@
 ⬅️⬅️⬅️
 </p>
 
+<p align="center">
+<img width="438" height="452" alt="Image265" src="https://github.com/user-attachments/assets/65a90aad-6bfe-41f9-89d0-ada6ca9c2c78" />
+</p>
+
+
 ---
 
 ## 📌 Resumen
@@ -236,6 +241,9 @@ Cada etapa se implementó de forma independiente para facilitar la experimentaci
 ---
 
 # 📌 Etapas del proyecto
+
+<img width="1534" height="670" alt="TT II" src="https://github.com/user-attachments/assets/ae32cc9a-9ae5-473a-8c1a-d7888c7786b4" />
+
 
 ## 1️⃣ Comprensión del problema
 
