@@ -1,11 +1,6 @@
-# Análisis de precio de la vivienda de la Ciudad de México: Predicción de Precios y Visualización en Panel Informativo
-
-Dashboard interactivo: [huggingface.co/spaces/Isomorfismo/dashboard-cdmx](https://huggingface.co/spaces/Isomorfismo/dashboard-cdmx)
 # 🏠 Predicción del precio de la vivienda en la Ciudad de México
 
 <p align="center">
-
-<img src="docs/images/banner-cdmx.png" alt="Predicción del precio de vivienda en CDMX" width="100%">
 
 </p>
 
