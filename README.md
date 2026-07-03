@@ -11,11 +11,11 @@
 </p>
 
 <p align="center">
-
+➡️➡️➡️
 <a href="https://huggingface.co/spaces/Isomorfismo/dashboard-cdmx">
   <img src="https://img.shields.io/badge/🚀%20Ver%20Dashboard-Hugging%20Face-yellow?style=for-the-badge">
 </a>
-
+⬅️⬅️⬅️
 </p>
 
 ---
