@@ -27,7 +27,7 @@
 
 ## 📌 Resumen
 
-Este proyecto desarrolla un sistema de **Machine Learning para la estimación del precio de viviendas en la Zona Metropolitana de la Ciudad de México**, combinando información inmobiliaria, variables geoespaciales e ingeniería avanzada de características.
+Este proyecto desarrolla un sistema de **Machine Learning para la estimación del precio de viviendas en la Zona Metropolitana de la Ciudad de México**, combinando información inmobiliaria, variables geoespaciales e ingeniería avanzada de características. 
 
 El repositorio documenta el flujo completo de Ciencia de Datos:
 
